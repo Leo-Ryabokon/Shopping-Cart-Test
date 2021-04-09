@@ -1,0 +1,22 @@
+.cartItem_wrapper {
+display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    border-bottom: 3px solid rgb(255, 127, 0);
+    padding: 20px;
+}
+.cartItem_name {
+
+}
+.cartItem_qty input {
+    width: 2rem;
+    border: 2px solid rgb(255, 127, 0);
+    border-radius: 4px;
+}
+.cartItem_price {
+
+}
+.cartItem_deleteBtn {
+
+}

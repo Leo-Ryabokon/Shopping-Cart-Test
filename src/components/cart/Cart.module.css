@@ -1,0 +1,25 @@
+.cart {
+    margin-top: 100px;
+    height: 100vh;
+}
+
+.cart_message {
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+}
+.cart_items_table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    color: rgb(255, 127, 0);
+    font-size: 1.5rem;
+    border-bottom: 3px solid rgb(255, 127, 0);
+    padding: 20px;
+}
+.cart_summary {
+    margin: 20px;
+    padding: 20px;
+    font-size: 2rem;
+    color: rgb(255, 127, 0)
+}

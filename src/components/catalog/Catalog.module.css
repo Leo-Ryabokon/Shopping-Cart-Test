@@ -1,0 +1,10 @@
+.catalog_wrapper {
+    display: grid;
+    grid-area: content;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
